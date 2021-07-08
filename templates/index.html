@@ -7,7 +7,7 @@
     
 </head>
 <body>
-    <link  href="home.css" rel="stylesheet" >
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
     <form action="/videos" method="post" enctype="multipart/form-data">
   
             <h1><strong>Video upload</strong></h1>        
